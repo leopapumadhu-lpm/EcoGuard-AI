@@ -10,10 +10,16 @@ streamlit>=1.32.0
 # Requests — HTTP calls for Open-Meteo weather API
 requests>=2.31.0
 
-# Pandas — data handling for charts on Home, Climate Monitor, Sustainability
+# Pandas — data handling for charts and climate data
 pandas>=1.5.0
 
-# Python-dotenv — load environment variables from a .env file (keeps secrets safe)
+# Plotly — interactive charts and maps
+plotly>=5.18.0
+
+# NumPy — numerical operations and data processing
+numpy>=1.24.0
+
+# Python-dotenv — load environment variables from a .env file
 python-dotenv>=1.0.0
 
 # IBM watsonx.ai SDK — powers the Climate Assistant (IBM Granite model)
